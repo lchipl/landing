@@ -1,0 +1,179 @@
+body	{
+		background:url('aeD0_uRrbGk.jpg');
+background-repeat:repeat;
+background-size:100%;
+}
+#main	{
+	display:grid;
+	grid-template-columns:1fr 1fr 1fr 1fr;
+	grid-auto-rows:minmax(300px,auto);
+	grid-row-gap:15px;
+}
+#myface	{
+	display:grid;
+	grid-template-rows:700px;
+	grid-row:1/-1;
+	background:url('99.jpg');
+	background-size:100%;
+	border:1px solid orange;
+	border-radius:5px;
+	grid-template-columns:1fr;
+	grid-column:1/-1;
+}
+
+#myface form{
+	border:3px solid green;
+	border-radius:5px;
+	width:400px;
+	margin-left:100px;
+	margin-top:300px;
+}
+form input	{
+	border:1px solid green;
+	height:50px;
+	width:400px;
+}
+input[type="submit"]:hover	{
+	background-color:green;
+	border-radius:5px;
+	cursor: pointer;
+}
+#servies	{
+	display:grid;
+	text-align:center;
+	grid-template-columns:repeat(5, 1fr);
+	grid-template-rows:(2, 300px;);
+	grid-column:1/-1;
+	grid-auto-row:minmax(200px,auto);
+	color:white;
+	grid-column-gap:40px;
+}
+.model	{
+	border:1px solid orange;
+	border-radius:5px;
+}
+.model:nth-child(1){
+
+
+}
+.model:nth-child(2){
+
+
+}
+.model:nth-child(3){
+
+
+}
+.model:nth-child(4){
+
+}
+#tobe	{
+	grid-column:1/-1;
+	grid-row:2;
+}
+.krutoiebaka{
+	background-color:white;
+	text-align:center;
+	border:1px solid black;
+		border-radius:5px;
+		font-size:20px;
+}
+#aboutme	{
+	grid-column:1/-1;
+}
+
+#FAQ	{
+	grid-column:1/-1;
+}
+.div	{
+		border:1px solid black;
+		border-radius:5px;
+}
+.portfolio	{
+	display:grid;
+	grid-gap:10px;
+	grid-template-columns:repeat(5, 1fr);
+	grid-auto-rows:minmax(200px,400px);
+}
+.portfolio img {
+	height:100%;
+	width:100%;
+	border:1px solid black;
+	border-radius:5px;
+	cursor:pointer;
+}
+.portfolio div{
+	border:1px solid black;
+	border-radius:5px;
+}
+.FAQ{
+	border:1px solid black;
+	border-radius:5px;
+	text-align:center;
+	display:grid;
+	grid-column:1/-1;
+	grid-template-columns:repeat(2, 1fr);
+	grid-template-rows:1fr 6fr;
+	grid-row-gap:10px;
+}
+.FAQ input	{
+	border:1px solid black;
+	border-radius:5px;
+	width:300px;
+	height:50px;
+
+}
+.FAQ img{
+	width:100px;
+	height:100px;
+
+}
+.FAQ{
+	border:1px solid black;
+	border-radius:5px;
+}
+.FAQ header	{
+	grid-column:1/-1;
+}
+.FAQ form	{
+	padding-top:auto;
+	padding-bottom:auto;
+	margin-right:300px;
+}
+.links	{
+	margin-top:40px;
+	padding-left:20px;
+}
+.uname,
+.uemail,
+.ucommit{
+	width:60%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:auto;
+	margin-top:auto;
+}
+.ucommit textarea	{
+	width:300px;
+	height:54px;
+
+}
+.opening	{
+	display:grid;
+	background:white;
+		border:1px solid black;
+	border-radius:5px;
+	font-weight:bold;
+	font-size:30px;
+	grid-template-columns:repeat(3, 1fr);
+}
+.opening:nth-child(1)	{
+	grid-column:1;
+}
+textarea{
+	border:1px solid orange;
+	border-radius:5px;
+}
+.FAQ input[type="submit"]	{
+	margin-left:75px;
+}
